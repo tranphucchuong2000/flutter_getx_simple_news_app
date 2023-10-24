@@ -1,16 +1,14 @@
 # flutter_getx_simple_news_app
 
-Learn about flutter GetX fetching data from api or call api using http get request.
-
 **Source API:**
 
-- newsapi: [link](https://newsapi.org/)
+- OpenWeather: [link]([https://newsapi.org/](https://openweathermap.org/api))
 
 **Packages using:**
 
 - get: [link](https://pub.dev/packages/get)
 - http: [link](https://pub.dev/packages/http)
-
+- geolocator: [link]([https://pub.dev/packages/http](https://pub.dev/packages/geolocator))
 ### Application structure
                     
 ```
@@ -24,9 +22,8 @@ Learn about flutter GetX fetching data from api or call api using http get reque
     ├── controller                  - It manage state of the model and resultan data.
     ├── models                      - It contains class / objects created specifically.
     ├── service                     - It connects app to the 'outside world'.
-    ├── view                        - It contains widgets of the screens.
+    ├── screen                      - It contains widgets of the screens.
     ├── main.dart                   - Starting point of the application.
 ```
 
-#### Home Screen
-![image](https://github.com/alghanykennedy/flutter_getx_simple_news_app/assets/82708330/82316385-7ae7-4313-aab7-6abc369b865f)
+
